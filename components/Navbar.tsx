@@ -37,7 +37,7 @@ export default function Navbar() {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link to="home">
+            <Link to="home" className="hover:cursor-pointer">
               <div className="container flex items-center space-x-2">
                 <h2 className="text-2xl font-bold">Meng Lavy</h2>
               </div>
@@ -66,7 +66,7 @@ export default function Navbar() {
                     key={idx}
                     to={item.page}
                     className={
-                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
+                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 hover:cursor-pointer dark:text-neutral-100"
                     }
                     activeClass="active"
                     spy={true}

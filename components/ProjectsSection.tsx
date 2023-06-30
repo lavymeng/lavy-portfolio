@@ -10,31 +10,31 @@ const projects = [
     description:
       "Agritech is a project which is focusing on solving the agriculture problem in Cambodia. We were trying to find the problem and solve that problem by using technologies.",
     image: "/agritech.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    github: "",
+    link: "",
   },
   {
     name: "Technology training",
     description:
       "Join and experience various training such as Mobile game, Flutter app, White hacker, Electron desktop, Fintech.",
     image: "/training.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    github: "",
+    link: "",
   },
   {
     name: "Proadvisor",
     description:
       "Proadvisor is a platform which provides financial information and help in decision making on loan and saving on bank in Cambodia.",
     image: "/proadvisor.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    github: "",
+    link: "",
   },
   {
     name: "Self-learning",
     description:
       "Focusing on front-end web development with ReactJS and TailwindCSS",
     image: "/portfolio.png",
-    github: "https://lavymeng.github.io/Portfolio/",
+    github: "https://github.com/lavymeng/Portfolio",
     link: "https://lavymeng.github.io/Portfolio/",
   },
 ];
