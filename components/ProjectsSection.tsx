@@ -70,18 +70,24 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.github} target="_blank">
-                        <BsGithub
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link>
-                      <Link href={project.link} target="_blank">
-                        <BsArrowUpRightSquare
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link>
+                      {/* Show github icon if github link is available */}
+                      {project.github && (
+                        <Link href={project.github} target="_blank">
+                          <BsGithub
+                            size={30}
+                            className="hover:-translate-y-1 transition-transform cursor-pointer"
+                          />
+                        </Link>
+                      )}
+                      {/* Show link icon if link is available */}
+                      {project.link && (
+                        <Link href={project.link} target="_blank">
+                          <BsArrowUpRightSquare
+                            size={30}
+                            className="hover:-translate-y-1 transition-transform cursor-pointer"
+                          />
+                        </Link>
+                      )}
                     </div>
                   </div>
                 </div>
