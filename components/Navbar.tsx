@@ -83,18 +83,6 @@ export default function Navbar() {
               })}
               {/* download CV */}
               <DownloadPage />
-              {/* <Link
-                to="/lavyCVHah.pdf" download={true}
-                className="block lg:inline-block text-neutral-900  hover:text-neutral-500 hover:cursor-pointer dark:text-neutral-100"
-                // className="text-neutral-700 font-semibold px-6 py-3 bg-gray-100 rounded shadow hover:bg-teal-700 hover:cursor-pointer hover:text-neutral-100"
-                activeClass="active"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                Download CV
-              </Link> */}
               {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}
