@@ -11,10 +11,11 @@ const HeroSection = () => {
         <div className="md:mt-2 md:w-1/2">
           <Image
             src="/myprofile.jpg"
-            alt=""
+            alt="my profile picture"
             width={325}
             height={325}
-            className="rounded-full shadow-2xl"
+            priority={true}
+            className="rounded-full shadow-2xl w-auto h-auto"
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
