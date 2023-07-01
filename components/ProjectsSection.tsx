@@ -10,8 +10,8 @@ const projects = [
     description:
       "Agritech is a project which is focusing on solving the agriculture problem in Cambodia. We were trying to find the problem and solve that problem by using technologies.",
     image: "/agritech.png",
-    github: "",
-    link: "",
+    github: "/agritech",
+    link: "https://www.figma.com/proto/aTotwBRxukKioXFKBK9RQB?type=design&node-id=0-1&mode=design&t=RaeBG2eGBNUGP3aa-6",
   },
   {
     name: "Technology training",

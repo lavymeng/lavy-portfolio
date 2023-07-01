@@ -6,6 +6,8 @@ import { usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
 import { RiMoonFill, RiSunLine } from "react-icons/ri";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
+import DownloadPage from "./DownloadPage";
+import fs from "fs";
 
 interface NavItem {
   label: string;
@@ -53,7 +55,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div>
+        <div className="flex justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
           <div
             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
               navbar ? "block" : "hidden"
@@ -79,6 +81,20 @@ export default function Navbar() {
                   </Link>
                 );
               })}
+              {/* download CV */}
+              <DownloadPage />
+              {/* <Link
+                to="/lavyCVHah.pdf" download={true}
+                className="block lg:inline-block text-neutral-900  hover:text-neutral-500 hover:cursor-pointer dark:text-neutral-100"
+                // className="text-neutral-700 font-semibold px-6 py-3 bg-gray-100 rounded shadow hover:bg-teal-700 hover:cursor-pointer hover:text-neutral-100"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Download CV
+              </Link> */}
               {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}

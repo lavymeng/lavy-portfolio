@@ -1,8 +1,8 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "../public/SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
@@ -10,31 +10,31 @@ const projects = [
     description:
       "Agritech is a project which is focusing on solving the agriculture problem in Cambodia. We were trying to find the problem and solve that problem by using technologies.",
     image: "/agritech.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    github: "/agritech",
+    link: "https://www.figma.com/proto/aTotwBRxukKioXFKBK9RQB?type=design&node-id=0-1&mode=design&t=RaeBG2eGBNUGP3aa-6",
   },
   {
     name: "Technology training",
     description:
       "Join and experience various training such as Mobile game, Flutter app, White hacker, Electron desktop, Fintech.",
     image: "/training.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    github: "",
+    link: "",
   },
   {
     name: "Proadvisor",
     description:
       "Proadvisor is a platform which provides financial information and help in decision making on loan and saving on bank in Cambodia.",
     image: "/proadvisor.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    github: "",
+    link: "",
   },
   {
     name: "Self-learning",
     description:
       "Focusing on front-end web development with ReactJS and TailwindCSS",
     image: "/portfolio.png",
-    github: "https://lavymeng.github.io/Portfolio/",
+    github: "https://github.com/lavymeng/Portfolio",
     link: "https://lavymeng.github.io/Portfolio/",
   },
 ];
@@ -87,12 +87,11 @@ const ProjectsSection = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
-        
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;
