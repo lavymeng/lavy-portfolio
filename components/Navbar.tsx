@@ -7,7 +7,6 @@ import { useTheme } from "next-themes";
 import { RiMoonFill, RiSunLine } from "react-icons/ri";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 import DownloadPage from "./DownloadPage";
-import fs from "fs";
 
 interface NavItem {
   label: string;

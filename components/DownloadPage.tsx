@@ -33,7 +33,6 @@ const DownloadPage = () => {
 
   return (
     <div>
-      {/* <h1>Download Page</h1> */}
       <Link
         href="#"
         onClick={handleDownloadClick}
