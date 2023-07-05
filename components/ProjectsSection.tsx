@@ -19,7 +19,7 @@ const projects = [
       "Join and experience various training such as Mobile game, Flutter app, White hacker, Electron desktop, Fintech.",
     image: "/training.png",
     github: "",
-    link: "",
+    link: "https://nosy-rowboat-a20.notion.site/Technology-training-145c3540d9ec493d85d4a00a5b5a38f2?pvs=4",
   },
   {
     name: "Proadvisor",
