@@ -27,7 +27,7 @@ const projects = [
       "Proadvisor is a platform which provides financial information and help in decision making on loan and saving on bank in Cambodia.",
     image: "/proadvisor.png",
     github: "",
-    link: "http://34.143.180.195:3000/",
+    link: "",
   },
   {
     name: "Self-learning",
