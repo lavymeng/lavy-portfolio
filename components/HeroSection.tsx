@@ -27,7 +27,7 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Software Engineer. {""}
             </span>
-            A curious person who is passionate about Front-end web development.
+            A curious person who is passionate about Web development.
             I am hard working and willing to learn new things and capable of
             working with both individuals and teams.
           </p>
