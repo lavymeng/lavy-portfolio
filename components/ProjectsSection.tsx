@@ -28,7 +28,7 @@ const projects = [
     image: "/proadvisor.png",
     github:
       "https://github.com/incubation-center/B8-FullStack--Website--Group4",
-    link: "",
+    link: "https://github.com/incubation-center/B8-FullStack--Website--Group4",
   },
   {
     name: "Self-learning",
